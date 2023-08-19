@@ -1,4 +1,6 @@
 # neovim_import
+
+## nvchad version
 Neovim setup &amp; configurations for an Ubuntu/Debian system
 
 1. Make sure u use the latest version of neovim
@@ -13,3 +15,13 @@ Neovim setup &amp; configurations for an Ubuntu/Debian system
                 golines,
                 goimports
         Added to custom/configs/plugings.lua
+
+## neovim/kickstarter
+
+    git clone https://github.com/nvim-lua/kickstart.nvim.git
+
+## The Primeagen setup for init.lua file
+
+    git clone https://github.com/ThePrimeagen/init.lua.git
+
+
