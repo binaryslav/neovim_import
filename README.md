@@ -24,10 +24,45 @@
 
         git clone https://github.com/iarosb/neovim_import.git ~/.config/nvim --depth 1
 
+4. Plugins overview:   
 
-4. PDE
+        1) Core functionality: 
+                telescope,
+                lspconfig,
+                cmp,
+                treesitter + treesitter-playground,
+                lazy.nvim 
 
-        custom vim motions with a relation to neovim's default behavior
+        2) Haproon to replace tabs(in general) & marks(Vim) 
+        3) Nvim-tree for better visual navigation in large projects
+        4) Zen-mode - better focus on the task and less fatigue from work 
+        5) Quality of life features:
+                comment.nvim,
+                gitsigns,
+                ibl(indentation),
+                lualine(bar),
+                fugitive,
+                rhubarb,
+                sleuth,
+                which-key
 
-        language clients
-        functionality profile(combination of plugins and language servers that are on)
+5. Preconfigured motions & workflow:
+
+       Access terminal: term   || tmux <C-space>c
+
+       Manage a buffer: 
+                Telescope search || nvim-tree navigation || :e $PATH  
+                mark it with Harpoon || ctrl -o/i for jumping back & forth || telescope search across opened buffers
+                Harpoon for blazingly fast navigation between them(including closed ones) 
+                :w || :bdelete/:q! for saving/cancelling changes to the buffer
+        
+        LSP:
+
+        Writing code:
+                Vim motions(
+                        recording,
+                        :norm(in visual mode),
+                        vi{*} for smart selection or executing a command against a selected block of code,   
+                        executing shell commands against a file or a block of code with piping technique,
+
+
