@@ -3,7 +3,7 @@
 // Remove tmp files and old configs 
 
         sudo rm /usr/local/bin/nvim
-        sudo rm -r /usr/local/share/nvim/ 
+        sudo rm -r /usr/local/share/nvim/
 
 // Create .config/nvim
 
