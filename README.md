@@ -1,4 +1,4 @@
-1. Set up worskapce:
+1. Environment setup:
 
 // Remove tmp files and old configs 
 
