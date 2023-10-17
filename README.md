@@ -9,7 +9,7 @@
 
         mkdir -p ~/.config/nvim
 
-// Download and install any Nerd font(: "Jetbrains mono") && set as active on the terminal
+// Download and install any Nerd font(eg "Jetbrains mono") && set as active on the terminal
 
         mkdir ~/.local/share/fonts
         unzip SourceCodePro.zip -d ~/.local/share/fonts/
