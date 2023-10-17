@@ -1,27 +1,33 @@
-# neovim_import
+1. Set up worskapce:
 
-## nvchad version
-Neovim setup &amp; configurations for an Ubuntu/Debian system
+// Remove tmp files and old configs 
 
-1. Make sure u use the latest version of neovim
-2. git clone nvchad
-3. git clone this repo
-4. download and install Nerd fonts(Jetbrains mono). Set as active on the terminal
-5. Autocompletion: gopls server VS mason.nvim
-6. Autoformatting: gopls API vs custom.config
-7. LSP integration:
-8. Go tooling:
-                gofumpt,
-                golines,
-                goimports
-        Added to custom/configs/plugings.lua
+        sudo rm /usr/local/bin/nvim
+        sudo rm -r /usr/local/share/nvim/ 
 
-## neovim/kickstarter
+// Create .config/nvim
 
-    git clone https://github.com/nvim-lua/kickstart.nvim.git
+        mkdir -p ~/.config/nvim
 
-## The Primeagen setup for init.lua file
+// Download and install any Nerd font(: "Jetbrains mono") && set as active on the terminal
 
-    git clone https://github.com/ThePrimeagen/init.lua.git
+        mkdir ~/.local/share/fonts
+        unzip SourceCodePro.zip -d ~/.local/share/fonts/
+        fc-cache ~/.local/share/fonts
+
+ 
+2. Install neovim
+
+        sudo snap install nvim --classic
+
+3. Import configuration 
+
+        git clone https://github.com/iarosb/neovim_import.git ~/.config/nvim --depth 1
 
 
+4. PDE
+
+        custom vim motions with a relation to neovim's default behavior
+
+        language clients
+        functionality profile(combination of plugins and language servers that are on)
