@@ -1,3 +1,5 @@
-[] make an ansible playbook out of 
-[] get rid of tmp folder
-[] make a few sets of visual modes with corresponding configurational changes to leverage their advantages
+[] extend & double check README.md
+        [] nice markdown 
+
+[] fix clipboard+ incompatibility with Wayland
+[] improve development experience with LSP and specific tools

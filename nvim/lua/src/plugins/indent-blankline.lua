@@ -10,7 +10,7 @@ return {
 				filetypes = { 'dashboard', 'NvimTree', 'packer', 'lsp-installer' }
 			},
 			scope = {
-				enabled = true,
+				enabled = false,
 				show_end = true
 			}
 		})
