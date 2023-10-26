@@ -1,5 +1,7 @@
-[] extend & double check README.md
-        [] nice markdown 
+- [] README.md rework
+        [x] markdown & readability
+        [] descriptions for plugins
+        [] workflow guidance 
 
-[] fix clipboard+ incompatibility with Wayland
-[] improve development experience with LSP and specific tools
+- [] fix "clipboard+" incompatibility with Wayland
+- [] better LSP setup 
