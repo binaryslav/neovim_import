@@ -25,7 +25,7 @@
 
 # Plugins overview:   
 
-## **Core functionality:**<br>
+## **Core functionality:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [telescope](https://github.com/nvim-telescope/telescope.nvim),<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [lspconfig](https://github.com/neovim/nvim-lspconfig),<br>
@@ -33,7 +33,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [treesitter + treesitter-playground](https://github.com/nvim-treesitter/nvim-treesitter),<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [tazy.nvim](https://github.com/folke/lazy.nvim)<br>
 
-## **Quality of life features:**<br>
+## **Quality of life features:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Harpoon](https://github.com/ThePrimeagen/harpoon) - to replace tabs(in general) and marks(Vim)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nvim-tree](https://github.com/nvim-tree) - better visual navigation in large projects<br>
