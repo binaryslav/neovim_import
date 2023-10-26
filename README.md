@@ -1,4 +1,4 @@
-# Environment setup:
+# Environment setup
 
 1. **Remove tmp files and old configs** 
 
@@ -23,7 +23,7 @@
 
         git clone https://github.com/iarosb/neovim_import.git ~/.config/nvim --depth 1
 
-# Plugins overview:   
+# Plugins overview
 
 ## **Core functionality:**
 
@@ -39,6 +39,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nvim-tree](https://github.com/nvim-tree) - better visual navigation in large projects<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Zen-mode](https://github.com/folke/zen-mode.nvim) - instant switch between bird's eye view of your project and performing a code surgery<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Comment.nvim](https://github.com/numToStr/Comment.nvim),<br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Gitsigns](https://github.com/lewis6991/gitsigns.nvim),<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ibl](https://github.com/lukas-reineke/indent-blankline.nvim),<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lualine(bar)](https://github.com/nvim-lualine/lualine.nvim),<br>
@@ -47,7 +48,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Sleuth](https://github.com/tpope/vim-sleuth),<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Which-key](https://github.com/folke/which-key.nvim)<br>
 
-# Preconfigured motions & workflow:
+# Preconfigured motions & workflow
 
 *Access terminal: term   || tmux <C-space>c
 
