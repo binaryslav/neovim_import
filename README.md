@@ -19,33 +19,33 @@
  
 5. [**Install neovim**](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
+
 # Import configuration 
 
         git clone https://github.com/iarosb/neovim_import.git ~/.config/nvim --depth 1
 
+
 # Plugins overview
 
 ## **Core functionality:**
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [telescope](https://github.com/nvim-telescope/telescope.nvim),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [lspconfig](https://github.com/neovim/nvim-lspconfig),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [cmp](https://github.com/hrsh7th/nvim-cmp),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [treesitter + treesitter-playground](https://github.com/nvim-treesitter/nvim-treesitter),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [tazy.nvim](https://github.com/folke/lazy.nvim)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Telescope](https://github.com/nvim-telescope/telescope.nvim),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lspconfig](https://github.com/neovim/nvim-lspconfig),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Cmp](https://github.com/hrsh7th/nvim-cmp),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Treesitter + Treesitter-playground](https://github.com/nvim-treesitter/nvim-treesitter),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lazy.nvim](https://github.com/folke/lazy.nvim)<br>
 
 ## **Quality of life features:**
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Harpoon](https://github.com/ThePrimeagen/harpoon) - to replace tabs(in general) and marks(Vim)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nvim-tree](https://github.com/nvim-tree) - better visual navigation in large projects<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Zen-mode](https://github.com/folke/zen-mode.nvim) - instant switch between bird's eye view of your project and performing a code surgery<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Comment.nvim](https://github.com/numToStr/Comment.nvim),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Comment.nvim](https://github.com/numToStr/Comment.nvim)<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Gitsigns](https://github.com/lewis6991/gitsigns.nvim),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ibl](https://github.com/lukas-reineke/indent-blankline.nvim),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lualine(bar)](https://github.com/nvim-lualine/lualine.nvim),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Fugitive](https://github.com/tpope/vim-fugitive),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Rhubarb,](https://github.com/tpope/vim-rhubarb),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Sleuth](https://github.com/tpope/vim-sleuth),<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Gitsigns](https://github.com/lewis6991/gitsigns.nvim)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ibl](https://github.com/lukas-reineke/indent-blankline.nvim)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lualine(bar)](https://github.com/nvim-lualine/lualine.nvim)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Fugitive](https://github.com/tpope/vim-fugitive)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Rhubarb](https://github.com/tpope/vim-rhubarb)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Sleuth](https://github.com/tpope/vim-sleuth)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Which-key](https://github.com/folke/which-key.nvim)<br>
 
 # Preconfigured motions & workflow
