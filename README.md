@@ -35,9 +35,9 @@
 
 **Quality of life features:**<br>
 
-[Harpoon](https://github.com/ThePrimeagen/harpoon) to replace tabs(in general) & marks(Vim) <br>
-[Nvim-tree](https://github.com/nvim-tree) for better visual navigation in large projects<br>
-[Zen-mode](https://github.com/folke/zen-mode.nvim) - better focus on the task and less fatigue from work <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Harpoon](https://github.com/ThePrimeagen/harpoon) - to replace tabs(in general) and marks(Vim)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nvim-tree](https://github.com/nvim-tree) - better visual navigation in large projects<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Zen-mode](https://github.com/folke/zen-mode.nvim) - instant switch between bird's eye view of your project and performing a code surgery<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; comment.nvim,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gitsigns,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ibl(indentation),<br>
