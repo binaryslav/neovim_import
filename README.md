@@ -1,42 +1,41 @@
-1. Environment setup:
+# Environment setup:
 
-// Remove tmp files and old configs 
+1. **Remove tmp files and old configs** 
 
         sudo rm /usr/local/bin/nvim
         sudo rm -r /usr/local/share/nvim/
 
-// Create .config/nvim
+2. **Create ".config/nvim"**
 
         mkdir -p ~/.config/nvim
 
-// Download and install any Nerd font(eg "Jetbrains mono") && set as active on the terminal
+3. **[Download and install](https://www.nerdfonts.com/) any Nerd font (eg "Jetbrains mono")**
 
         mkdir ~/.local/share/fonts
         unzip SourceCodePro.zip -d ~/.local/share/fonts/
         fc-cache ~/.local/share/fonts
 
+4. **Set a newely installed font as active on the terminal**
  
-2. Install neovim
+5. [**Install neovim**](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
-        sudo snap install nvim --classic
-
-3. Import configuration 
+# Import configuration 
 
         git clone https://github.com/iarosb/neovim_import.git ~/.config/nvim --depth 1
 
-4. Plugins overview:   
+# Plugins overview:   
 
-        1) Core functionality: 
+**Core functionality:**
                 telescope,
                 lspconfig,
                 cmp,
                 treesitter + treesitter-playground,
                 lazy.nvim 
 
-        2) Haproon to replace tabs(in general) & marks(Vim) 
-        3) Nvim-tree for better visual navigation in large projects
-        4) Zen-mode - better focus on the task and less fatigue from work 
-        5) Quality of life features:
+[Harpoon](https://github.com/ThePrimeagen/harpoon) to replace tabs(in general) & marks(Vim) 
+[Nvim-tree](https://github.com/nvim-tree) for better visual navigation in large projects
+[Zen-mode](https://github.com/folke/zen-mode.nvim) - better focus on the task and less fatigue from work 
+**Quality of life features:**
                 comment.nvim,
                 gitsigns,
                 ibl(indentation),
@@ -46,19 +45,19 @@
                 sleuth,
                 which-key
 
-5. Preconfigured motions & workflow:
+# Preconfigured motions & workflow:
 
-       Access terminal: term   || tmux <C-space>c
+*Access terminal: term   || tmux <C-space>c
 
-       Manage a buffer: 
+*Manage a buffer: 
                 Telescope search || nvim-tree navigation || :e $PATH  
                 mark it with Harpoon || ctrl -o/i for jumping back & forth || telescope search across opened buffers
                 Harpoon for blazingly fast navigation between them(including closed ones) 
                 :w || :bdelete/:q! for saving/cancelling changes to the buffer
         
-        LSP:
+*LSP:
 
-        Writing code:
+*Writing code:
                 Vim motions(
                         recording,
                         :norm(in visual mode),
