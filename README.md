@@ -26,16 +26,18 @@
 # Plugins overview:   
 
 **Core functionality:**<br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; telescope,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lspconfig,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cmp,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; treesitter + treesitter-playground,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tazy.nvim<br>
 
-[Harpoon](https://github.com/ThePrimeagen/harpoon) to replace tabs(in general) & marks(Vim) 
-[Nvim-tree](https://github.com/nvim-tree) for better visual navigation in large projects
-[Zen-mode](https://github.com/folke/zen-mode.nvim) - better focus on the task and less fatigue from work 
 **Quality of life features:**<br>
+
+[Harpoon](https://github.com/ThePrimeagen/harpoon) to replace tabs(in general) & marks(Vim) <br>
+[Nvim-tree](https://github.com/nvim-tree) for better visual navigation in large projects<br>
+[Zen-mode](https://github.com/folke/zen-mode.nvim) - better focus on the task and less fatigue from work <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; comment.nvim,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; gitsigns,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ibl(indentation),<br>
@@ -63,5 +65,3 @@
                         :norm(in visual mode),
                         vi{*} for smart selection or executing a command against a selected block of code,   
                         executing shell commands against a file or a block of code with piping technique,
-
-
