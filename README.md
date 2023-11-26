@@ -18,7 +18,7 @@
 4. **Set a newely installed font as active on the terminal**
  
 5. **Install additional dependencies**
-//Clipboard [providers](https://neovim.io/doc/user/provider.html)for Wayland(wl-clip) and X11(xclip)        
+<br>// Clipboard [providers](https://neovim.io/doc/user/provider.html) for Wayland(wl-clip) and X11(xclip)        
 
         sudo apt install wl-clip xclip
 
