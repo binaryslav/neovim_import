@@ -3,11 +3,12 @@ vim.g.maplocalleader = ' '
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
+vim.opt.autoread = true
 
 vim.o.hlsearch = false
 vim.wo.number = true
 vim.o.mouse = 'a'
-vim.o.clipboard = 'unnamedplus'
+vim.opt.clipboard = 'unnamedplus'
 vim.o.breakindent = true
 vim.o.undofile = true
 vim.o.ignorecase = true
