@@ -1,8 +1,15 @@
 return {
 	{
-		'navarasu/onedark.nvim',
+		"olimorris/onedarkpro.nvim",
 		lazy = false,
 		priority = 1000,
+		filetype = {
+			ruby		= false,
+			scss		= false,
+			xml		= false,
+			typescriptreact	= false,
+
+		},
 		config = function()
 			vim.cmd.colorscheme 'onedark'
 
@@ -19,4 +26,3 @@ return {
 	},
 
 }
-
