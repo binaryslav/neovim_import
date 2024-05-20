@@ -12,12 +12,9 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 require('lazy').setup({
-  { import = "src.plugins"},
-  { import = "src.plugins.custom"},
-  { import = "src.plugins.core"},
+  { import = "src.plugins.core" },
+  { import = "src.plugins.user" },
 })
 
 -- learn more abt whys and hows of passing a table like this:
 --require('lazy').setup(, {})
-
-

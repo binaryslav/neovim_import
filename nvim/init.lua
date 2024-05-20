@@ -1,4 +1,5 @@
-require("src.mappings")
+require("src.mappings-global")
 require("src.lazy")
---[[ require("src.autocmds") ]]
+require("src.autocmds")
+require("src.autoformat")
 require("src.debug")

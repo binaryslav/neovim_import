@@ -2,7 +2,6 @@ return {
   {
     'neovim/nvim-lspconfig',
     config = function()
-
       local format_is_enabled = true
       vim.api.nvim_create_user_command('KickstartFormatToggle', function()
         format_is_enabled = not format_is_enabled
@@ -24,7 +23,7 @@ return {
         group = vim.api.nvim_create_augroup('kickstart-lsp-attach-format', { clear = true }),
         -- This is where we attach the autoformatting for reasonable clients
         callback = function(args)
-          print("autoformat.lua is attached")
+          print("autoformat.lua:LSP is attached")
           local client_id = args.data.client_id
           local client = vim.lsp.get_client_by_id(client_id)
           local bufnr = args.buf
@@ -56,8 +55,6 @@ return {
           })
         end,
       })
-
-
     end,
 
   }
