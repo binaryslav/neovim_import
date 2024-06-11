@@ -37,11 +37,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lspconfig](https://github.com/neovim/nvim-lspconfig),<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Cmp](https://github.com/hrsh7th/nvim-cmp),<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Treesitter + Treesitter-playground](https://github.com/nvim-treesitter/nvim-treesitter),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lazy.nvim](https://github.com/folke/lazy.nvim)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Lazy.nvim](https://github.com/folke/lazy.nvim) - note that a project structure slightly differs from the one recommended by the LazyNvim devs<br>
 
 ## **Quality of life features:**
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Harpoon](https://github.com/ThePrimeagen/harpoon) - to replace tabs(in general) and marks(Vim)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Harpoon](https://github.com/ThePrimeagen/harpoon) - environment-aware way of marking buffers for instant navigation between them<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Nvim-tree](https://github.com/nvim-tree) - better visual navigation in large projects<br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Zen-mode](https://github.com/folke/zen-mode.nvim) - instant switch between bird's eye view of your project and performing a code surgery<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Comment.nvim](https://github.com/numToStr/Comment.nvim) - toggle comments on selection<br>
 
@@ -55,21 +56,24 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [lspkind](https://github.com/onsails/lspkind.nvim) - better LSP suggestion window(icons, color etc)<br>
 
 
-# Preconfigured motions & workflow
+# Utility functions:
 
-*Access terminal: term   || tmux <C-space>c
+* [1] function SetTransparency(transparent bool)
+        true    - sets "bg" to "none" making the desktop visibile
+        false   - sets global colorcsheme as a provider for "bg" value
 
-*Manage a buffer: 
-                Telescope search || nvim-tree navigation || :e $PATH  
-                mark it with Harpoon || ctrl -o/i for jumping back & forth || telescope search across opened buffers
-                Harpoon for blazingly fast navigation between them(including closed ones) 
-                :w || :bdelete/:q! for saving/cancelling changes to the buffer
-        
-*LSP:
+# My workflow:
 
-*Writing code:
-                Vim motions(
-                        recording,
-                        :norm(in visual mode),
-                        vi{*} for smart selection or executing a command against a selected block of code,   
-                        executing shell commands against a file or a block of code with piping technique,
+* Terminal access:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. :term  OR :terminal command<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tmux: open new pane  OR  open new window<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Open a new terminal window to the side. Perfectly combines with tiling window managers<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Open a floating terminal window: see projects like ["vim-floaterm"](https://github.com/voldikss/vim-floaterm)<br>
+
+* FS navigation:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Nvim-tree<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Harpoon<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. :e path<br>
+
+* Buffer management: 
+* LSP:
