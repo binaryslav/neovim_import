@@ -1,20 +1,18 @@
 local autocmd_group = vim.api.nvim_create_augroup("Custom auto-commands", { clear = true })
 
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
-    pattern = { "*.go", "go.mod" },
-    desc = "Auto-format Go files after saving",
-    callback = function()
-        local fileName = vim.api.nvim_buf_get_name(0)
-        vim.cmd(":silent !gofumpt -w " .. fileName)
-    end,
-    group = autocmd_group,
+  pattern = { "*.go", "go.mod" },
+  desc = "Auto-format Go files after saving",
+  callback = function()
+    local fileName = vim.api.nvim_buf_get_name(0)
+    vim.cmd(":silent !gofumpt -w " .. fileName)
+  end,
+  group = autocmd_group,
 })
 
 
 
 
-
-local autocmd_group = vim.api.nvim_create_augroup("Custom auto-commands", { clear = true })
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
   pattern = { "*.go", "go.mod" },
   desc = "Auto-format Go files after saving",
@@ -79,6 +77,3 @@ vim.api.nvim_create_autocmd('LspAttach', {
     })
   end,
 })
-
-
-
