@@ -14,7 +14,6 @@ return {
       'folke/neodev.nvim',
     },
     config = function()
-
       local autocmd_group = vim.api.nvim_create_augroup("Custom auto-commands", { clear = true })
       vim.api.nvim_create_autocmd({ "BufWritePost" }, {
         pattern = { "*.go", "go.mod" },
@@ -67,11 +66,11 @@ return {
       end
 
       local servers = {
-        -- clangd = {},
+        clangd = {},
         gopls = {},
-        -- pyright = {},
+        pyright = {},
         -- rust_analyzer = {},
-        -- tsserver = {},
+        -- tsserver = {}, IS DEPRECATED AND NEEDS TO BE REPLACED WITH "ts_ls" instead as per warning recieved
 
         lua_ls = {
           Lua = {

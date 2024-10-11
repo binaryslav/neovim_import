@@ -11,8 +11,6 @@ vim.api.nvim_create_autocmd({ "BufWritePre" }, {
 })
 
 
-
-
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
   pattern = { "*.go", "go.mod" },
   desc = "Auto-format Go files after saving",

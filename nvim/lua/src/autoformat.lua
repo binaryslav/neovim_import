@@ -28,6 +28,10 @@ return {
           local client = vim.lsp.get_client_by_id(client_id)
           local bufnr = args.buf
 
+          if client == nil then
+            return
+          end
+
           if not client.server_capabilities.documentFormattingProvider then
             return
           end
