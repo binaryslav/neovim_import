@@ -62,7 +62,7 @@
         true    - sets "bg" to "none" making the desktop visibile
         false   - sets global colorcsheme as a provider for "bg" value<br>
 
-* [2] <leader>bd - run ":bd" against all buffers but the one active. Respects unsaved changes<br>
+* [2] \<leader\>bd - run ":bd" against all buffers but the one active. Respects unsaved changes<br>
 
 # My workflow:
 
