@@ -2,7 +2,8 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.keymap.set("n", "<leader>bd", function() vim.cmd(':%bd|e#|bd#|\'"') end)
+vim.keymap.set("n", "<leader>bd", function() vim.cmd(':%bd|e#|bd#|\'"') end,
+  { desc = "run :bd against all buffers but the active one. Respects unsaved changes" })
 vim.opt.autoread = true
 
 vim.o.hlsearch = false
